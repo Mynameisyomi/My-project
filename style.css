@@ -254,7 +254,7 @@ padding-bottom: 70px;
 }
 #ac-globalfooter, #ac-globalfooter input, #ac-globalfooter textarea, #ac-globalfooter select, #ac-globalfooter button{
  font-synthesis: none;
- -moz-font-feature-settings: 'kern';
+ -moz-font-feature-settings:"kern";
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
  direction: ltr;
@@ -286,8 +286,8 @@ padding-bottom: 70px;
     margin: 0 auto;
     max-width: 980px;
     padding: 0 22px;
-    padding-left: calc(22px + constant(safe-area-inset-left));
-    padding-right: calc(22px + constant(safe-area-inset-right)
+    padding-left: calc(22px constant(safe-area-inset-left));
+    padding-right: calc(22px constant(safe-area-inset-right);
 }
 #ac-globalfooter *, #ac-globalfooter *:before, #ac-globalfooter *:after{
     font-size: 1em;
